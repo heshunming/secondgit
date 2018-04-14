@@ -15,6 +15,7 @@ public class BubbleSort {
 			num[i]=Integer.valueOf(nums[i]);
 			//System.out.print(num[i]+" ");
 		}
+		
 		SQList L=new SQList();
 		L.array=num;
 		L.length=num.length-1;
